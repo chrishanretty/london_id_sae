@@ -4,7 +4,7 @@ library(rstan)
 library(reshape2)
 library(xlsx)
 
-here::i_am("R/12_display_reg_noid.R")
+here::i_am("R/002_display_reg_noid.R")
 outfile <- here::here("outputs", "regnoid_workbook_v2.xlsx")
 alpha <- 1/40
 
