@@ -1,0 +1,16 @@
+This folder contains code necessary to estimate the proportion of
+registered voters lacking qualifying ID in the London elections.
+
+The files are as follows:
+
+├── data
+│   └── ward_joint.rds <- post-stratification frame
+├── R
+│   ├── 001_reg_andnoid.R <- do the MRP
+│   └── 002_display_reg_noid.R <- parse the MRP results
+├── README
+└── working
+    ├── tidy_aux_data.rds <- auxiliary (ward-level) data
+    └── tidy_ind_data.rds <- individual level data
+
+
